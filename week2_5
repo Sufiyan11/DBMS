@@ -1,0 +1,15 @@
+
+ALTER TABLE student DROP CONSTRAINT SYS_C008267;
+TABLE altered.
+
+ALTER TABLE course DROP CONSTRAINT SYS_C008263;
+ TABLE altered.
+
+ALTER TABLE student MODIFY name NULL;
+TABLE altered.
+
+ALTER TABLE student DROP CONSTRAINT SYS_C008266;
+TABLE altered.
+
+ALTER TABLE grade DROP constraint SYS_C008268;
+Table altered.
